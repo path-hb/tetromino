@@ -5,4 +5,7 @@
     python --version 3.11.x 나오면 성공!
     py -m pip install pygame
 
-
+# git 올리기
+    git add .
+    git commit -m "README.md수정"
+    git push origin master
