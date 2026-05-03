@@ -9,3 +9,10 @@
     git add .
     git commit -m "README.md수정"
     git push origin master
+
+# git에서 다운로드
+    git clone <git 주소>
+
+# 로컬 상태를 git과 맞추기
+    git pull origin master
+
