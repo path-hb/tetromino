@@ -5,10 +5,12 @@
     python --version 3.11.x 나오면 성공!
     py -m pip install pygame
 
-# git 올리기
-    git add .
-    git commit -m "README.md수정"
-    git push origin master
+# git 설치
+    git for windows 다운로드 설치
+    git config --global user.name "***"
+    git config --global user.email "***@***"
+    git init
+    git remote add origin https://github.com/path-hb/tetromino.git
 
 # git에서 다운로드
     git clone <git 주소>
@@ -16,3 +18,7 @@
 # 로컬 상태를 git과 맞추기
     git pull origin master
 
+# git 올리기
+    git add .
+    git commit -m "README.md수정"
+    git push origin master
